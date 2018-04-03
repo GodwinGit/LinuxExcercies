@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "enter first Number:"
+read value1
+echo "enter Second Number:"
+read value2
+value=$(($value1 + $value2))
+echo "value is $value"
+rem=$(($value % 2))
+if [ $rem -eq 0 ]
+then
+echo $n  a even number
+else
+echo $n  a odd number
+fi

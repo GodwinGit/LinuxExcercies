@@ -1,0 +1,9 @@
+#!/bin/bash
+mkdir automation
+cd automation/
+touch file1
+touch file2
+sudo mv file1 /home/
+chmod +x file2
+pwd
+sudo apt-get install yum

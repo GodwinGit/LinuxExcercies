@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "enter a number mate: "
+read number
+looper=1
+echo loop started
+
+while [ $looper -le $number ]
+do 
+echo $looper
+((looper++))
+done
